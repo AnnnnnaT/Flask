@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}
+        Магазин одежды
+        {% endblock %}
+    </title>        
+</head>
+<body>
+    <h1>Каталог</h1>
+    <nav>
+        <ul><a href="">Для детей</a></ul>
+        <ul><a href="">Для женщин/a></ul>
+        <ul><a href="">Для мужчин</a></ul>        
+    </nav>       
+        {% block content %}
+        Страница не заполнена
+        {% endblock %}    
+    <footer> 
+        <p>Все права защищены</p>
+        <p>Контакты: +78387356202 best-shop@mail.ru</p>
+    </footer>
+</body>
+</html>
